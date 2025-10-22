@@ -108,29 +108,6 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 - **Client Reporting**: Create custom dashboards for clients
 - **Data Exploration**: Quickly explore and understand new datasets
 
-## 🏗️ Project Structure
-
-\`\`\`
-├── app/
-│   ├── api/
-│   │   └── datasets/
-│   │       └── upload/          # Dataset upload API
-│   ├── dashboard/
-│   │   └── [id]/                # Dynamic dashboard pages
-│   ├── datasets/                # Dataset management pages
-│   └── page.tsx                 # Landing page
-├── components/
-│   ├── ui/                      # shadcn/ui components
-│   ├── dynamic-dashboard.tsx    # Main dashboard component
-│   ├── navigation.tsx           # Navigation bar
-│   └── footer.tsx               # Footer component
-├── lib/
-│   └── supabase/                # Supabase client utilities
-├── scripts/
-│   └── 001_create_flexible_schema.sql  # Database setup
-└── public/                      # Static assets
-\`\`\`
-
 ## 🤝 Contributing
 
 Contributions are welcome! Please read our [Contributing Guide](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
